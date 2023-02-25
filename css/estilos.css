@@ -1,0 +1,89 @@
+:root {
+  --purple-color: #432093;
+  --white-color: white;
+  --blue-color: #90dafd;
+  --bluedark-color: #0a0aff;
+  --purpledark-color: #22104c;
+  /*Tipografia*/
+  --normal: 14px;
+  /*Tipografia*/
+  --space: 10px;
+  /*box shadow*/
+  --box: 0 0 2 px #888686;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+}
+nav {
+  display: flex;
+  background-color: var(--white-color);
+  padding-top: 20px;
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10% 0 10%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a {
+  color: var(--purple-color);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav li a:hover {
+  color: var(--purple-color);
+}
+
+.intro {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 0%;
+  justify-content: space-between;
+  margin: 0 10% 0 10%;
+}
+.intro .content {
+  /* padding: 15px; */
+  text-align: left;
+}
+
+.main_button {
+  background-color: var(--bluedark-color);
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_button a {
+  text-decoration: none;
+  color: var(--purpledark-color);
+}
+
+.main_button:hover {
+  background-color: var(--blue-color);
+}
+
+.content .img_content img {
+  width: 150px;
+  height: 150px;
+}
