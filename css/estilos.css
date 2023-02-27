@@ -71,7 +71,7 @@ nav li a:hover {
   background-color: var(--bluedark-color);
   padding: var(--space);
   font-size: var(--normal);
-  color: var(--white-color);
+  color: var(--purpledark-color);
   border: none;
   cursor: pointer;
   border-radius: 4px;
@@ -83,7 +83,7 @@ nav li a:hover {
 
 .main_button a {
   text-decoration: none;
-  color: var(--purpledark-color);
+  color: white;
 }
 
 .main_button:hover {
