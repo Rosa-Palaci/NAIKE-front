@@ -94,3 +94,31 @@ nav li a:hover {
   width: 70px;
   height: 70px;
 }
+
+.diferenciales{
+
+    padding: 30px;
+}
+
+.imgTennis{
+    width: 150%;
+    vertical-align: center;
+
+}
+
+#parent {
+  display: flex;
+}
+#narrow {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: center;
+  margin: 0 1.5%;
+  padding: 10% 20px;
+}
+#image {
+  flex: 1;
+  
+  
+}
