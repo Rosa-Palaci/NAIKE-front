@@ -81,6 +81,11 @@ nav li a:hover {
   margin-right: auto;
 }
 
+.main_button {
+  text-decoration: none;
+  color: white;
+}
+
 .main_button a {
   text-decoration: none;
   color: white;
@@ -96,7 +101,6 @@ nav li a:hover {
 }
 
 .diferenciales{
-
     padding: 30px;
 }
 
